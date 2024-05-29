@@ -1,0 +1,140 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-image: url('image/imgback.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Navigation bar styling */
+.an {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(0, 183, 255), rgb(0, 26, 128));
+  height: 80px;
+  border-bottom: 2px solid rgba(0, 183, 255, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.an ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.an ul li {
+  margin: 0 15px;
+  text-align: center;
+  display: inline-block;
+  width: 130px;
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 12.5px;
+  transition: all 0.4s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.an ul li a {
+  font-family: 'Verdana', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.an ul li:hover {
+  background-color: rgb(44, 190, 183);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.an ul li a:hover {
+  color: #fff;
+}
+
+/* Form styling */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  background-color: #30465c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0080ff;
+}
+
+/* Button styling */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 90px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2388b8;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+button:active {
+  background-color: #f0f0f0;
+}
